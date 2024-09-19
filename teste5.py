@@ -8,4 +8,4 @@ while i >= 0:
     inverso += palavra[i]
     i = i - 1
 
-print(inverso)
+print(f"O inverso da palavra: {palavra} é: {inverso}")

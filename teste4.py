@@ -16,4 +16,5 @@ percents = []
 for i in faturamentos:
     percents.append({"UF": i["UF"], 'percent': f"{round((i['fat']/total)*100, 2)}%"})
 
-print(percents)
+for i in percents:
+    print([i])
